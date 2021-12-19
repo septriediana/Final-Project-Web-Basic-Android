@@ -1,0 +1,154 @@
+:root {
+    --dark-purple: #9A8C98;
+    --light-orange: #F2E9E4;
+    --black: #000000;
+}
+
+* {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: var(--dark-purple);
+    overflow-x: hidden;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 30;
+    padding-top: 50;
+    text-align: right;
+    position: fixed;
+    top: 0;
+}
+
+.navbar a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    padding: 15px 30px;
+    color: var(--light-orange);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#navContact {
+    margin-right: 100px;
+}
+
+.container-main {
+    background-color: #F2E9E4;
+}
+
+.container {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#photo {
+    width: 500px;
+    height: 472.84px;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+#photo-caption{
+    text-decoration: none;
+}
+
+.text {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+/* HOME */
+#text-1 {
+    font-size: 50px;
+    letter-spacing: 0.05em;    
+
+}
+
+#text-2 {
+    font-size: 80px;
+    letter-spacing: 00.05em;
+}
+
+#text-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 404px;
+    height: 51px;
+}
+
+.btn {
+    background: #F7A9A0;
+    border: none;
+    padding: 32px 52px;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+
+    font-size: 16px;
+}
+
+.container-about {
+    /* margin-left: 100px; */
+    margin-top: 100px;
+}
+
+#profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+#about-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#about-desc {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-contact {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+#contact {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.socmed {
+    display: table;
+    padding-bottom: 30px;
+}
+
+.socmed a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#project {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container-project {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.container-project iframe {
+    margin-bottom: 30px;
+}
